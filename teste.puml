@@ -6,5 +6,10 @@
 
  Person(client, "Client", "Digital Wallet User")
 
- System("Wallet", "Digital Wallet System", "FC Digital Wallet'")
+ System(Wallet, "Digital Wallet System", "FC Digital Wallet'")
+
+ System_Ext(secret_manager, "AWS Secrets Manager", "Credentials Manager")
+ System_Ext(apm, "APM", "Application Performance Monitoring")
+ System_Ext(collect, "OTEL", "OpenTelemetry Collector")
+ System_Ext(payment_gateway, "Payment Gateway", "Payment Processor")
 @enduml
